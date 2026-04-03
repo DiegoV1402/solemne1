@@ -1,4 +1,4 @@
-name: CI/CD SHOA API
+name: CI/CD FastAPI Time
 
 on:
   push:
@@ -39,4 +39,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: diegov1402/api-shoa-time:latest
+        tags: diegov1402/api-time-solemne:latest
